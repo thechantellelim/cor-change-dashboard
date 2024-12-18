@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>FRPC Dashboard</title>
+    <style>
+      @import "./styles/bootstrap.scss";
+    </style>
+    <style>
+      @import "./styles/App.css";
+    </style>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  </head>
+  <body>
+    <div id="app"></div>
+    <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-0.20.3/package/dist/xlsx.full.min.js"></script>
+    <script>
+      (() => {
+          window.googleParams = '<?!= params ?>';
+      })();
+    </script>
+    <script type="module">
+      import "./index.js"
+    </script>
+  </body>
+</html>

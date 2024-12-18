@@ -1,0 +1,6 @@
+
+    {
+        "submissionCols":["submitter","cor","acor","ccList"],
+        "lmtNewCols":["COR Full Name","COR Office Name","COR Office Code","Alternative Contracting Officer's Representative Full Name","ACOR Office Name","ACOR Office Code"],
+        "lmtCols":["COR Supervisor Email","Lessor Owner Email","LCO Email","LCO Office Name","LCO Office Code","Building Address Street","Building Address City","Building Address State Zip"]
+    }

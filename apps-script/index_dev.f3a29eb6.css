@@ -1,0 +1,198 @@
+.App {
+  margin: 20px;
+}
+
+.App-logo {
+  pointer-events: none;
+  height: 40vmin;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: 20s linear infinite App-logo-spin;
+  }
+}
+
+.App-header {
+  color: #fff;
+  background-color: #282c34;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  font-size: calc(10px + 2vmin);
+  display: flex;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0);
+  }
+
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+ul, li {
+  text-align: left;
+}
+
+.banner {
+  flex-direction: row;
+  display: flex;
+}
+
+.mb-3 {
+  margin-top: 10px;
+}
+
+.form-check-input[type="checkbox"] {
+  border-color: #000;
+}
+
+.wrapper {
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  display: flex;
+}
+
+.full {
+  width: 100%;
+}
+
+.gsaBlue {
+  color: var(--bs--gsaBlue);
+}
+
+.flex {
+  flex-flow: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.flexVar {
+  flex-flow: row;
+  gap: 10px;
+  display: flex;
+}
+
+.flexColEven {
+  flex-flow: column;
+  justify-content: space-between;
+  display: flex;
+}
+
+.flexEnd {
+  justify-content: flex-end;
+  display: flex;
+}
+
+.search {
+  width: 200px;
+}
+
+.top-icon {
+  text-align: center;
+  z-index: 1;
+  width: 20%;
+  height: 40px;
+  position: absolute;
+  left: 85%;
+  transform: translate(-75%, -50%);
+}
+
+#summary_div {
+  flex-flow: column;
+  gap: 1rem;
+  width: 60%;
+  height: 700px;
+  padding-left: 15px;
+  padding-right: 15px;
+  display: flex;
+  overflow-y: scroll;
+}
+
+.underline {
+  margin: 0;
+}
+
+#action_div {
+  gap: 20px;
+  width: 40%;
+}
+
+#takeAction, #viewHistory {
+  background-color: rgba(var(--bs-tertiary-bg-rgb));
+  border: solid;
+  height: 300px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  padding: 5px;
+  overflow-y: scroll;
+}
+
+#reviewBreakdown, #historyText {
+  margin-top: 30px;
+}
+
+.bannerInfo {
+  flex-direction: row;
+  justify-content: space-between;
+  display: flex;
+}
+
+.actionGap {
+  gap: 100px;
+}
+
+.sectionTitle {
+  margin-top: 10px;
+  font-size: larger;
+}
+
+.reviewPageTitle {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+}
+
+#removeFilterBtn {
+  height: 40px;
+  margin-top: 10px;
+}
+
+.cursor-pointer {
+  cursor: pointer;
+}
+
+.ql-toolbar, .ql-tooltip {
+  display: none;
+}
+
+.ql-editor {
+  border: solid #000;
+}
+
+.ql-tooltip {
+  display: none;
+}
+
+.state {
+  margin: 10px 0;
+  font-family: monospace;
+}
+
+.state-title {
+  color: #999;
+  text-transform: uppercase;
+}
+/*# sourceMappingURL=index_dev.f3a29eb6.css.map */

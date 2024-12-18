@@ -1,0 +1,5 @@
+[
+    {"leaseNumber":"LDC00388","transactionID":"CHG-24-0001","date":"07/15/2024 15:43:30","submitter":"melanie.daniels@gsa.gov","cor":"chantelle.lim@gsa.gov","acor":"chuck.knauer@gsa.gov","status":"LMT Info Needed","ccList":"xxx","docusignInfo":{"envelopeID":"test","chantelle.lim@gsa.gov":"12/2/2024 11:10:12","chuck.knauer@gsa.gov":""}},
+    {"leaseNumber":"LAK00071","transactionID":"CHG-24-0002","date":"07/15/2024 15:43:30","submitter":"melanie.daniels@gsa.gov","cor":"chantelle.lim@gsa.gov","acor":"chuck.knauer@gsa.gov","status":"Approval Needed","ccList":"xxx"},
+    {"leaseNumber":"LAK00071","transactionID":"CHG-24-0003","date":"07/15/2024 15:43:30","submitter":"melanie.daniels@gsa.gov","cor":"chantelle.lim@gsa.gov","acor":"chuck.knauer@gsa.gov","status":"Docusign Sent","ccList":"xxx"}
+]
